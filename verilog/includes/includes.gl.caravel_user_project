@@ -16,3 +16,8 @@
 # Caravel user project includes	     
 -v $(USER_PROJECT_VERILOG)/gl/user_project_wrapper.v    
 -v $(USER_PROJECT_VERILOG)/gl/user_proj_example.v
+
+# Automatically generated with user I/O config from user_defines.v
+# by caravel/scripts/gen_gpio_defaults.py
+-v $(USER_PROJECT_VERILOG)/gl/caravan_core.v
+-v $(USER_PROJECT_VERILOG)/gl/gpio_defaults_block_*.v
