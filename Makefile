@@ -20,7 +20,7 @@ MAKEFLAGS += --warn-undefined-variables
 
 export CARAVEL_ROOT?=$(PWD)/caravel
 export UPRJ_ROOT?=$(PWD)
-PRECHECK_ROOT?=${PWD}/mpw_precheck
+PRECHECK_ROOT?=${HOME}/mpw_precheck
 export MCW_ROOT?=$(PWD)/mgmt_core_wrapper
 SIM?=RTL
 
@@ -212,6 +212,7 @@ uninstall:
 
 
 # Install Pre-check
+# Default installs to the user home directory, override by "export PRECHECK_ROOT=<precheck-installation-path>"
 .PHONY: precheck
 precheck:
 	if [ -d "$(PRECHECK_ROOT)" ]; then\
