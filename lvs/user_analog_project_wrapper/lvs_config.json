@@ -11,6 +11,9 @@
 	"EXTRACT_ABSTRACT": [
 		""
 	],
+	"EXTRACT_CREATE_SUBCUT": [
+		""
+	],
 	"LVS_FLATTEN": [
 		""
 	],
@@ -20,11 +23,8 @@
 	"LVS_IGNORE": [
 		""
 	],
-	"LVS_SPICE_FILES_TO_FIX": [
-		"$UPRJ_ROOT/xschem/user_analog_project_wrapper.spice"
-	],
 	"LVS_SPICE_FILES": [
-		""
+		"$UPRJ_ROOT/xschem/user_analog_project_wrapper.spice"
 	],
 	"LVS_VERILOG_FILES": [
 		""
